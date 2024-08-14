@@ -34,13 +34,12 @@
     "web-vitals": "^2.1.4",
     "yup": "^1.4.0"
   },
-  "scripts": {
-    "start": "react-scripts start",
-    "build:node-options": "cross-env NODE_OPTIONS='--max_old_space_size=8192' npm run build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
-  },
+ "scripts": {
+  "start": "react-scripts start",
+  "build": "cross-env NODE_OPTIONS='--max-old-space-size=8192' react-scripts build",
+  "test": "react-scripts test",
+  "eject": "react-scripts eject"
+},
   "eslintConfig": {
     "extends": [
       "react-app",
