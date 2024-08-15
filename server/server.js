@@ -6,7 +6,7 @@ import { connectDB } from "./config/db.js";
 import userRouter from "./Routes/UserRoute.js";
 import moviesRoutes from "./Routes/MovieRoutes.js";
 
-import { errorHandler } from "./middlewares/errorMiddleWare.js";
+import { errorHandler } from "./middlewares/errorMiddleware.js";
 import categoriesRoutes from "./Routes/CategoriesRoute.js";
 import Uploadrouter from "./Controllers/UploadFile.js";
 
